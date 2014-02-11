@@ -19,9 +19,16 @@ public class SimuDuck {
 		// part has to be done by dev 1
 		Duck d1 = new MallardDuck();
 		
+		// part has to be done by dev 2
+		Duck d2 = new RedheadDuck();
+		
 		// part has to be done by dev 1
 		d1.quack();
-		d1.display();	
+		d1.display();
+		
+		// part has to be done by dev 2
+		d2.quack();
+		d2.display();
 
 	}
 
